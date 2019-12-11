@@ -15,6 +15,7 @@ If you are not familiar with Alexa Skills, I highly recommend you to watch this 
 * Deploy your the java app by runnning on the root directory de following command:
 `mvn spring-boot:run`
 * Your application should be acessible to your lambda function. The easiest way to do that is to use like Local Tunnel (https://localtunnel.github.io/www/):
+
 `npm install -g localtunnel`
 
 `lt --port 8080`
