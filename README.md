@@ -16,7 +16,10 @@ If you are not familiar with Alexa Skills, I highly recommend you to watch this 
 `mvn spring-boot:run`
 * Your application should be acessible to your lambda function. The easiest way to do that is to use like Local Tunnel (https://localtunnel.github.io/www/):
 `npm install -g localtunnel`
+
 `lt --port 8080`
+
+
  Once you run the last command, it will print a URL which you can use to access your local application from outside of your network
 * Create a new Alexa Skill and give a name to it
 * Under the option "JSON Editor" paste the content of the file "alexa-skill.js"
